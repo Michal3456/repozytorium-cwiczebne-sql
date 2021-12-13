@@ -1,0 +1,17 @@
+1.select * from A
+2.select * from A where id%2=0
+3.select * from A where id=3
+4.select * from A imie like "_a_" or imie like "_b_" or imie like "_c_"
+5.select * from A where A>100
+6.select * from A where segmentrynku like korporacja
+7.select * from A where "segment rynku" like "koroporacja' or "segment rynku" like "osoby fizyczne"
+8.select * from A where "priorytet zamówienia" like "wysoki" and "segment rynku" like "korporacja" or "segment rynku" like "osoba fizyczna"
+9.select * from A
+Union
+select * from B
+10.select * from A
+INTERSECT
+select * from B
+11.select * from A
+union all
+select * from B
