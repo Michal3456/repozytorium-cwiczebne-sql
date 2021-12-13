@@ -1,0 +1,11 @@
+1 - SELECT * FROM A
+2 - SELECT * FROM A WHERE "wielkość zamówienia"%2=0
+3 - SELECT * FROM A WHERE "Nr wiersza" = 3 
+4 - SELECT * FROM A WHERE "Segment rynku" LIKE '%a%' or "Segment rynku"  LIKE '%b%' or "Segment rynku"  LIKE '%o%' 
+5 - SELECT * FROM A WHERE "Wielkość zamówienia" > 100
+6 - SELECT * FROM A WHERE "Segment rynku" = korporacja
+7 - SELECT * FROM A WHERE "Segment rynku" = korporacja or "Segment rynku" = "osoba fizyczna"
+8 - SELCET * FROM A WHERE "Piorytet zamówienia" = wysoki and "Segment rynku" = korporacja or "Segment rynku" = "osoba fizyczna"
+9 - SELECT * FROM A UNION SELECT * FROM B
+10 - SELECT * FROM A INTERSECT SELECT * FROM B
+11 - SELECT * FROM A UNION ALL SELECT * FROM B
