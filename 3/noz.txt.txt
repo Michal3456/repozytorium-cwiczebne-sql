@@ -1,0 +1,28 @@
+1 - SELECT * FROM A 
+2 - SELECT * FROM A 
+WHERE id%2=0
+3 - SELECT * FROM A 
+WHERE id=3
+4 - 
+SELECT * FROM A
+"segment rynku"
+5 - SELECT * FROM A
+WHERE A>100
+6 - SELECT * FROM A
+WHERE "segment rynku" LIKE "korporcja"
+7 - SELECT * FROM A
+WHERE "segment rynku" LIKE "korporcja" OR "segment rynku LIKE "osoba fizyczna"
+8 - SELECT * FROM A 
+WHERE "priorytet zamówienia" LIKE "korporcja" OR "segment rynku LIKE "osoba fizyczna"
+9 - 
+SELECT * FROM A 
+UNION
+SELECT * FROM B
+10 -
+SELECT * FROM A 
+INTERSECT
+SELECT * FROM B
+11 -
+SELECT * FROM A 
+
+SELECT * FROM B
