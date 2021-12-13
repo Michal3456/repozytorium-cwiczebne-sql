@@ -1,0 +1,19 @@
+1. select * from A
+2. select * from A where id%2=0
+3. select * from A where id=3
+4. select * from A "segment rynku" like "_a_" Or "segment rynku" like "_b_" Or "segment rynku" like "_C_"
+5. select * from A where A>100
+6. select * from A where "segment rynku" like "korporacja"
+7. select * from A where "segment rynku" like "korporacja" Or "segment rynku" like "osoba fizyczna"
+8. select * from A where "priorytet zamówienia" like "wysoki" and "segment rynku" like "korporacja" Or "segment rynku" like "osoba fizyczna"
+9. select * from A
+Union
+Select * from B
+10.
+select * from A
+INTERSECT
+select * from B
+11.
+select * from A
+union all
+select * from B
