@@ -2,7 +2,7 @@
 2. select * from A where id%2=0
 3. select * from A where id=3
 4. select * from A "segment rynku" like "_a_" Or "segment rynku" like "_b_" Or "segment rynku" like "_C_"
-5. select * from A where "wielkość zadania">100
+5. select * from A where "wielkość zamówienia">100
 6. select * from A where "segment rynku" like "korporacja"
 7. select * from A where "segment rynku" like "korporacja" Or "segment rynku" like "osoba fizyczna"
 8. select * from A where "priorytet zamówienia" like "wysoki" and "segment rynku" like "korporacja" Or "segment rynku" like "osoba fizyczna"
