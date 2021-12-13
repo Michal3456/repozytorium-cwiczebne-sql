@@ -1,0 +1,21 @@
+1. SELECT * FROM A
+
+2.SELECT * FROM A WHERE id%2 = 0
+
+3.SELECT * FROM A WHERE "nr wiersza" = 3
+
+4.SELECT  FROM A
+
+5.SELECT * FROM A WHERE "wielkość zamówienia" > 100
+
+6.SELECT "Segment rynku" LIKE "korporacja" FROM A
+
+7.SELECT "Segment rynku" LIKE "korporacja" OR "osoba fizyczna" FROM A
+
+8.SELECT  FROM A
+
+9.SELECT * FROM A + SELECT * FROM B
+
+10.SELECT * FROM A INTERSECT SELECT * FROM B
+
+11.SELECT * FROM A UNION SELECT * FROM B
