@@ -1,0 +1,7 @@
+1.SELECT * FROM A
+2.SELECT * FROM A WHERE "Wielkoœæ zamówienia" %2=0
+3.SELECT * FROM A WHERE "Nr wiersza" =3
+4.SELECT * FROM A WHERE "Segment rynku" LIKE "a" OR "Segment rynku" LIKE "b" OR "Segment rynku" LIKE "o"
+5.SELECT * FROM A WHERE "Wielkoœæ zamówienia" >100
+6.SELECT * FROM A WHERE "Segment rynku" LIKE "korporacja"
+7.SELECT * FROM A WHERE "Segment rynku" LIKE "korporacja" OR "Segment rynku" LIKE "osoba fizyczna"
