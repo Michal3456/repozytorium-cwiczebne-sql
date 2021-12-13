@@ -1,0 +1,7 @@
+1. SELECT * FROM A
+2. SELECT * FROM A WHERE parzyste
+3. SELECT * FROM A WHERE id=3
+4. SELECT * FROM A WHERE 'segment rynku' LIKE a OR LIKE b OR LIKE o
+5. SELECT * FROM A WHERE 'wielkosc zamowienia' > 100
+6. SELECT * FROM A LIKE 'korporacja'
+7. SELECT * FROM A LIKE 'korporacja' OR 'osoba fizyczna'
