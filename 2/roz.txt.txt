@@ -1,7 +1,7 @@
 1.select * from A
 2.select * from A where id%2=0
 3.select * from A where id=3
-4.select * from A imie like "_a_" or imie like "_b_" or imie like "_c_"
+4.select * from A imie like "%a%" or imie like "%b%" or imie like "%c%"
 5.select * from A where "wielkość zamówienia">100
 6.select * from A where segmentrynku like korporacja
 7.select * from A where "segment rynku" like "koroporacja' or "segment rynku" like "osoby fizyczne"
