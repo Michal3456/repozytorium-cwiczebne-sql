@@ -1,0 +1,11 @@
+1. SELECT * FROM B
+2. SELECT * FROM B WHERE 'kwota zamówienia'%1000=0
+3. SELECT * FROM B WHERE 'kwota zamówienia'=1000
+4. SELECT * FROM B WHERE 'Sprzedawca' LIKE '%ek%'
+5. SELECT * FROM B WHERE 'kwota zamówienia'>10000 AND <550000
+6. SELECT * FROM B WHERE 'Sprzedawca'="Czernek"
+7. SELECT * FROM B WHERE 'Sprzedawca'=("Czernek" OR "Dubicki") AND "Karwat"
+8. SELECT * FROM B WHERE 'Data zamówienia'<"15.07.2014"
+9. SELECT * FROM A UNIONALL * FROM B
+10. SELECT * FROM A EXCEPT * FROM B
+11. SELECT * FROM A UNION * FROM B
