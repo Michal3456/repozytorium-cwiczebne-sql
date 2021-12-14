@@ -5,7 +5,7 @@
 5. SELECT * FROM B WHERE 'kwota zamówienia' > 10000 AND 'kwota zamówienia' < 550000
 6. SELECT * FROM B WHERE 'sprzedawca' = "Czernek"
 7. SELECT * FROM B WHERE 'sprzedawca' = ("Czernek" OR "Dubicki") AND "Karwat"
-8. SELECT * FROM B WHERE 'Data zamówienia'<"15.07.2014"
+8. SELECT * FROM B WHERE 'Data zamówienia'<15.07.2014
 9. SELECT * FROM A UNIONALL * FROM B
 10. SELECT * FROM A EXCEPT * FROM B
 11. SELECT * FROM A UNION * FROM B
