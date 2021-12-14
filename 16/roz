@@ -1,0 +1,22 @@
+zad.1
+SELECT * FROM B
+zad.2
+SELECT * FROM B WHERE 'Kwota zamówienia'%1000=0
+zad.3
+SELECT * FROM B WHERE 'Kwota zamówienia'=1000
+zad.4
+SELECT * FROM B WHERE 'Sprzedawca' LIKE '%ek%' 
+zad.5
+SELECT * FROM B WHERE 'Kwota zamówienia'>10000 AND 'Kwota zamówienia'<550000
+zad.6
+SELECT * FROM B WHERE 'Sprzedawca'="Czernek"
+zad.7
+SELECT * FROM B WHERE 'Sprzedawca'="Czernek" OR 'Sprzedawca'="Dubicki" AND 'Sprzedawca'="Karwat"
+zad.8
+SELECT * FROM B WHERE 'Data zamówienia'<15.07.2014
+zad.9
+SELECT * FROM A UNION ALL SELECT * FROM B
+zad.10 
+SELECT * FROM A EXCEPT SELECT * FROM B
+zad.11
+SELECT * FROM A UNION SELECT * FROM B
